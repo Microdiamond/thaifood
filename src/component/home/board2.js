@@ -19,6 +19,14 @@ const board2 = () => {
                     </div>
                 </Col>
             </Row>
+            <Row className='board2Row2'>
+                <Col xl={6}>
+                    <div>About Me.</div>
+                </Col>
+                <Col  xl={6}>
+                    <div className='col2detail'>"Somtam Pa Toi" is a popular street food vendor in Thailand that specializes in somtam, a traditional Thai salad, Larb, nam tok, chicken grilled, sticky rices</div>
+                </Col>
+            </Row>
         </Container>
     )
 }

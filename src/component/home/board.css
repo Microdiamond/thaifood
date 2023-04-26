@@ -75,3 +75,14 @@ body {
   justify-content: flex-end;
   padding-right: 40px !important;
 }
+.board2Row2 div div {
+  height: 100%;
+  font-size: 4rem;
+  font-weight: bold;
+  padding-top: 2rem;
+}
+
+.board2Row2 div .col2detail{
+  font-size: 20px !important;
+
+}
