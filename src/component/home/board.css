@@ -82,7 +82,70 @@ body {
   padding-top: 2rem;
 }
 
-.board2Row2 div .col2detail{
+.board2Row2 div .col2detail {
   font-size: 20px !important;
+}
 
+.board3Col div {
+  font-size: 4rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.board3Col2 div {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.imgB3Col1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  column-gap: 2rem;
+}
+
+.imgB3Col1 img {
+  overflow: hidden;
+  border-radius: 50px;
+  /* border: 1px solid; */
+  height: 300px;
+}
+
+.board4Col2 .imgB4Col1 {
+  overflow: hidden;
+  width: 450px;
+  height: 300px;
+}
+.board4Col2 .imgB4Col1 img{
+    width: -webkit-fill-available;
+}
+.board4Col3 .imgB4Col2{
+    border-radius: 20px;
+    overflow: hidden;
+    width: 350px;
+    height: 200px;
+}
+
+.board4Col3 .imgB4Col2 img {
+    width: -webkit-fill-available;
+  }
+
+.board4Col4{
+    font-weight: bold;
+    text-align: left;
+}
+
+.board4Col{
+  font-size: 4rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
 }
